@@ -1,0 +1,10 @@
+[project]
+name = "oqo"
+version = "1.0.0"
+description = "Oracle Quick Open - Smart URL opener for Oracle support engineers"
+requires-python = ">=3.6"
+license = {text = "MIT"}
+authors = [{name = "Bo Wang", email = "215456069+bowang168@users.noreply.github.com"}]
+
+[project.scripts]
+oqo = "oqo:main"
